@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities
+namespace Entities.Abstract
 {
-    public class Course
+    public interface IEntity
     {
-        public int id;
-        public string name;
-        public string description;
-
     }
 }
