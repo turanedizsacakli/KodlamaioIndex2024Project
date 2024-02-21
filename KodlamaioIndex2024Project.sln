@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodlamaio.Index", "Kodlamai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{3382146D-B263-4BC5-AC20-377B27255B0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{7643A4C9-D63B-4DCD-A845-69FFFD54694E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{BC1FC84A-2300-4F19-9B18-BC51619E1ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3382146D-B263-4BC5-AC20-377B27255B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3382146D-B263-4BC5-AC20-377B27255B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3382146D-B263-4BC5-AC20-377B27255B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643A4C9-D63B-4DCD-A845-69FFFD54694E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643A4C9-D63B-4DCD-A845-69FFFD54694E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643A4C9-D63B-4DCD-A845-69FFFD54694E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643A4C9-D63B-4DCD-A845-69FFFD54694E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1FC84A-2300-4F19-9B18-BC51619E1ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1FC84A-2300-4F19-9B18-BC51619E1ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1FC84A-2300-4F19-9B18-BC51619E1ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1FC84A-2300-4F19-9B18-BC51619E1ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

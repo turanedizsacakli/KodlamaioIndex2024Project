@@ -9,7 +9,7 @@ namespace Entities.Concrete
 {
     public class Course: IEntity
     {
-        public int Id;
+        public int CourtseId;
         public string CourseName;
         public string CourseDescription;
 
