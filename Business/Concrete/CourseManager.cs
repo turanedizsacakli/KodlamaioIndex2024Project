@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using DataAccess.Abstract;
+using DataAccess.Concrete;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,26 +10,33 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    internal class CourseManager : ICourseService
+    public class CourseManager : ICourseService
     {
+        private ICourseDal _courseDal;
+        public CourseManager(ICourseDal courseDal)
+        {
+            _courseDal = courseDal;
+        } 
+            
+
         public void Add(Course course)
         {
-            throw new NotImplementedException();
+            _courseDal.Add(course);
         }
 
         public void Delete(Course course)
         {
-            throw new NotImplementedException();
+            _courseDal.Delete(course);
         }
 
         public List<Course> GetAll()
         {
-            throw new NotImplementedException();
+            return _courseDal.GetAll();
         }
 
         public List<Course> GetAllByCourseName(string CourseName)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public List<Course> GetByCourseId(int CourseId)

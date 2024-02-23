@@ -9,9 +9,11 @@ namespace Entities.Concrete
 {
     public class Course: IEntity
     {
-        public int CourtseId;
-        public string CourseName;
-        public string CourseDescription;
+        public string CourseId { get; set; }
+        public string CourseName { get; set; }
+        public string CourseDescription { get; set; }
+        public string InstructorId { get; set; }
+        public string CategoryId { get; set; }
 
     }
 }
